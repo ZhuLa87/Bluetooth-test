@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center" />
+        <EditText
+            android:id="@+id/device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Input your device Name here"
+            android:textColorHint="@color/colorOnBackground"
+            android:textColor="@color/colorOnBackground" />
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:textSize="24sp"
+            android:textColor="@color/colorOnBackground" />
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 2"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Device"
+            android:textColor="@color/colorOnBackground" />
+
+        <TextView
+            android:id="@+id/devices"
+            android:textColor="@color/colorOnBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Devices"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 3"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:textColor="@color/colorOnBackground"
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 4"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:hint="Input here"
+            android:textColorHint="@color/colorOnBackground"
+            android:textColor="@color/colorOnBackground"/>
+
+        <Button
+            android:textColor="@color/colorOnBackground"
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:textColor="@color/colorOnBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center" />
+<!--    </ScrollView>-->
+</LinearLayout>
